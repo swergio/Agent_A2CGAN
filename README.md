@@ -36,7 +36,7 @@ The agent can be trained offline (using "expert data" as ground truth) or online
 #### Offline
 In offline mode, the model is trained based on given expert data. This includes the encoder, the generator as well as the discriminator. To fit the discriminator to "fake" data, the generator generates messages based on a random latent vector input. See the chart for an overview:
 
-picture .....
+![Offline Model](/readmesrc/OfflineModel.jpg)
 
 To start the offline training we can run the "runOffline.py" file.
 
@@ -54,7 +54,7 @@ In addition to the experience, expert data is used to continuously train the gen
 
 See the chart for an overview:
 
-picture .........
+![Online Model](/readmesrc/OnlineModel.jpg)
 
 To start the online mode run the "run.py" file.
 
