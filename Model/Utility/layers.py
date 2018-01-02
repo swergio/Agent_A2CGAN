@@ -36,5 +36,5 @@ def batch_normalization(x, scope, is_training=True):
 
 def fc(x,scope, nh, act=tf.nn.relu, init_scale=1.0):
      with tf.variable_scope(scope):
-        h = tf.layers.dense(x,nh,activattion=act,kernel_initializer = tf.orthogonal_initializer(init_scale))
+        h = tf.layers.dense(x,nh,activation=act,kernel_initializer = tf.orthogonal_initializer(init_scale))
         return h
