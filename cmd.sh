@@ -1,3 +1,3 @@
 #!/bin/bash
-tensorboard --logdir=/usr/src/app/log &
+tensorboard --logdir=/usr/src/app/sources/Log &
 python -u /usr/src/app/run.py
